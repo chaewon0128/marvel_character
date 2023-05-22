@@ -1,0 +1,37 @@
+.header {
+  background-color: #121e31;
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding: 30px;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.search_form input {
+  background-color: #626e80;
+  border: none;
+  width: 400px;
+  height: 40px;
+  border-radius: 3px;
+  margin-left: 100px;
+  padding-left: 45px;
+  color: #ffffff;
+  outline: none;
+}
+.search_form input::placeholder {
+  color: #c5d0e2;
+}
+.search_form button {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  cursor: pointer;
+  left: 250px;
+  top: 28px;
+}

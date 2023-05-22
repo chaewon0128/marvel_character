@@ -1,0 +1,22 @@
+.visual {
+  width: 100%;
+  background-color: #182938;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+}
+.title {
+  color: #ffffff;
+  font-size: 4rem;
+  font-weight: 700;
+  width: 550px;
+}
+.img {
+  width: 100%;
+}
+.quotes {
+  color: #767d8e;
+  padding-left: 20px;
+  padding-top: 25px;
+}

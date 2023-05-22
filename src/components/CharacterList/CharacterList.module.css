@@ -1,0 +1,28 @@
+.list {
+  background-color: #182338;
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  column-gap: 20px;
+  row-gap: 35px;
+}
+
+.item img {
+  width: 230px;
+  height: 300px;
+  transition: 0.5s ease-in-out;
+}
+.item img:hover {
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+}
+.item figcaption {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  padding-top: 10px;
+  text-decoration: none;
+}
